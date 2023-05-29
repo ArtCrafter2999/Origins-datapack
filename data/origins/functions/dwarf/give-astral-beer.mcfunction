@@ -1,0 +1,2 @@
+give @p[distance=..5, tag=dwarf] potion{CustomPotionColor:49858,display:{Name:'[{"text":"Beer of your ","italic":false},{"text":"Father","italic":true,"bold":true}]'},CustomPotionEffects:[{Id:14,Duration:900}], Tags:[astral-beer]} 1
+kill @e[type=item, distance=..1]

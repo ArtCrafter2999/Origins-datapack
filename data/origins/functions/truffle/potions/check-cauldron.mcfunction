@@ -1,0 +1,1 @@
+execute as @e[distance=..4, type=item, nbt={Item:{id:"minecraft:red_mushroom"}}] at @s if entity @e[distance=..0.5, type=item, nbt={Item:{id:"minecraft:brown_mushroom"}}] if block ~ ~ ~ water_cauldron if block ~ ~-1 ~ #campfires run function origins:truffle/potions/mark-cauldron 

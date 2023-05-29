@@ -1,0 +1,9 @@
+execute positioned ~ ~ ~-4 if block ~ ~ ~ #crystalix run scoreboard players add @s crystalix-crystal-blocks 1
+execute positioned ~ ~ ~-3 if block ~ ~ ~ #crystalix run scoreboard players add @s crystalix-crystal-blocks 1
+execute positioned ~ ~ ~-2 if block ~ ~ ~ #crystalix run scoreboard players add @s crystalix-crystal-blocks 1
+execute positioned ~ ~ ~-1 if block ~ ~ ~ #crystalix run scoreboard players add @s crystalix-crystal-blocks 1
+execute positioned ~ ~ ~ if block ~ ~ ~ #crystalix run scoreboard players add @s crystalix-crystal-blocks 1
+execute positioned ~ ~ ~1 if block ~ ~ ~ #crystalix run scoreboard players add @s crystalix-crystal-blocks 1
+execute positioned ~ ~ ~2 if block ~ ~ ~ #crystalix run scoreboard players add @s crystalix-crystal-blocks 1
+execute positioned ~ ~ ~3 if block ~ ~ ~ #crystalix run scoreboard players add @s crystalix-crystal-blocks 1
+execute positioned ~ ~ ~4 if block ~ ~ ~ #crystalix run scoreboard players add @s crystalix-crystal-blocks 1

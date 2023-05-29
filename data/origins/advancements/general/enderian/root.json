@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:ender_pearl"
+      },
+      "title": "The best basketball player",
+      "description": "Choose the Enderian's Origin",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "origins:general/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[enderian]}"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "origins:enderian/inventory-changed"
+    }
+  }

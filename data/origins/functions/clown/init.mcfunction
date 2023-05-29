@@ -1,0 +1,10 @@
+scoreboard objectives add clown-random-effect-timer dummy
+scoreboard objectives add clown-random-effect-timer dummy
+scoreboard objectives add clown-effect-charge-timer dummy
+scoreboard objectives add clown-effect-charged dummy
+scoreboard objectives add clown-dinamite-timer dummy
+scoreboard objectives add clown-lighter-timer dummy
+scoreboard objectives add clown-anvil-timer dummy
+scoreboard objectives add clown-move minecraft.custom:walk_one_cm
+scoreboard objectives add clown-stand-still-timer dummy
+scoreboard objectives add clown-honk minecraft.used:goat_horn

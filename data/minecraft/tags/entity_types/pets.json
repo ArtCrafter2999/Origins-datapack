@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+      "parrot",
+      "wolf",
+      "axolotl",
+      "cat",
+      "llama",
+      "horse"
+    ]
+  }

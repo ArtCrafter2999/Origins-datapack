@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+        "item": "minecraft:ender_eye"
+        },
+        "title": "Tired of humans",
+        "description": "Thanks you for installing origins datapack",
+        "background": "minecraft:textures/block/crying_obsidian.png",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "requirement": {
+        "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "origins:general/installed-advantage"
+    }
+}
+  

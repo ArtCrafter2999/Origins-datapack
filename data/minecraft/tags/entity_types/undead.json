@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+      "#skeletons",
+      "zombie",
+      "husk",
+      "drowned",
+      "zombie_villager"
+    ]
+  }

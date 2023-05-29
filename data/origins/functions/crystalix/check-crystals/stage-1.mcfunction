@@ -1,0 +1,9 @@
+execute positioned ~ ~-4 ~ run function origins:crystalix/check-crystals/stage-2
+execute positioned ~ ~-3 ~ run function origins:crystalix/check-crystals/stage-2
+execute positioned ~ ~-2 ~ run function origins:crystalix/check-crystals/stage-2
+execute positioned ~ ~-1 ~ run function origins:crystalix/check-crystals/stage-2
+execute positioned ~ ~ ~ run function origins:crystalix/check-crystals/stage-2
+execute positioned ~ ~1 ~ run function origins:crystalix/check-crystals/stage-2
+execute positioned ~ ~2 ~ run function origins:crystalix/check-crystals/stage-2
+execute positioned ~ ~3 ~ run function origins:crystalix/check-crystals/stage-2
+execute positioned ~ ~4 ~ run function origins:crystalix/check-crystals/stage-2

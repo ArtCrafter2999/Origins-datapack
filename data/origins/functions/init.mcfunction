@@ -1,0 +1,12 @@
+function origins:general/init
+function origins:random/init
+function origins:illager/init
+function origins:elytrian/init
+function origins:lich/init
+function origins:enderian/init
+function origins:truffle/init
+function origins:ghost/init
+function origins:dwarf/init
+function origins:crystalix/init
+function origins:centipede/init
+function origins:clown/init

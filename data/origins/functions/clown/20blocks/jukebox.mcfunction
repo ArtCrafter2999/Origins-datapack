@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ jukebox if data block ~ ~ ~ {IsPlaying:1b} run effect give @s speed 1 0 true

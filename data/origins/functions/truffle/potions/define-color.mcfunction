@@ -1,0 +1,16 @@
+execute if entity @s[tag=red] run data modify entity @e[sort=nearest, tag=truffle-item, limit=1] Item.tag.CustomPotionColor set value 16711680
+execute if entity @s[tag=orange] run data modify entity @e[sort=nearest, tag=truffle-item, limit=1] Item.tag.CustomPotionColor set value 16711680
+execute if entity @s[tag=yellow] run data modify entity @e[sort=nearest, tag=truffle-item, limit=1] Item.tag.CustomPotionColor set value 16711680
+execute if entity @s[tag=lime] run data modify entity @e[sort=nearest, tag=truffle-item, limit=1] Item.tag.CustomPotionColor set value 16711680
+execute if entity @s[tag=green] run data modify entity @e[sort=nearest, tag=truffle-item, limit=1] Item.tag.CustomPotionColor set value 16711680
+execute if entity @s[tag=cyan] run data modify entity @e[sort=nearest, tag=truffle-item, limit=1] Item.tag.CustomPotionColor set value 16711680
+execute if entity @s[tag=blue] run data modify entity @e[sort=nearest, tag=truffle-item, limit=1] Item.tag.CustomPotionColor set value 16711680
+execute if entity @s[tag=purple] run data modify entity @e[sort=nearest, tag=truffle-item, limit=1] Item.tag.CustomPotionColor set value 16711680
+execute if entity @s[tag=magenta] run data modify entity @e[sort=nearest, tag=truffle-item, limit=1] Item.tag.CustomPotionColor set value 16711680
+execute if entity @s[tag=pink] run data modify entity @e[sort=nearest, tag=truffle-item, limit=1] Item.tag.CustomPotionColor set value 16711680
+execute if entity @s[tag=gray] run data modify entity @e[sort=nearest, tag=truffle-item, limit=1] Item.tag.CustomPotionColor set value 16711680
+execute if entity @s[tag=black] run data modify entity @e[sort=nearest, tag=truffle-item, limit=1] Item.tag.CustomPotionColor set value 16711680
+execute if entity @s[tag=light_blue] run data modify entity @e[sort=nearest, tag=truffle-item, limit=1] Item.tag.CustomPotionColor set value 16711680
+execute if entity @s[tag=light_gray] run data modify entity @e[sort=nearest, tag=truffle-item, limit=1] Item.tag.CustomPotionColor set value 16711680
+execute if entity @s[tag=white] run data modify entity @e[sort=nearest, tag=truffle-item, limit=1] Item.tag.CustomPotionColor set value 16711680
+execute if entity @s[tag=brown] run data modify entity @e[sort=nearest, tag=truffle-item, limit=1] Item.tag.CustomPotionColor set value 16711680

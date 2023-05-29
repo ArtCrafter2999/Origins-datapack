@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "nbt": "{Tags:[blood]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "origins:vampire/blood-counsumed"
+  }
+}

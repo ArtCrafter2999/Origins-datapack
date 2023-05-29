@@ -1,0 +1,2 @@
+execute if entity @p[tag=clown, distance=..1] run function origins:clown/give-random-effect
+execute if block ~ ~ ~ #passable unless entity @p[tag=clown, distance=..0.5] positioned ^ ^ ^1 run function origins:clown/raycast

@@ -1,0 +1,1 @@
+kill @e[tag=random-armor-stand, limit=24, sort=random]

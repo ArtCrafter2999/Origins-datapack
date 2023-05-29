@@ -1,0 +1,2 @@
+summon item ~ ~ ~ {Item:{id:"minecraft:written_book", Count:1,tag:{pages:["[\"\",\"Book of \",{\"text\":\"Necromancy\",\"obfuscated\":true}]"],title:"Book of Necromancy",author:DarkEnergy, display:{Name:'["Book of ",{"text":"Necromancy","obfuscated":true}]'}}}}
+kill @s

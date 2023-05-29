@@ -1,0 +1,2 @@
+execute unless entity @e[distance=..2, tag=truffle-cauldron] positioned ^ ^ ^1 run function origins:truffle/potions/click-to-dilute
+execute as @e[distance=..2, tag=truffle-cauldron, sort=nearest, limit=1] run kill @s

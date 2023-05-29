@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[elytrian]}"
+            }
+          }
+        ],
+        "items": [
+          {
+            "items": [
+              "minecraft:dragon_egg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "origins:elytrian/increase-level"
+  }
+}

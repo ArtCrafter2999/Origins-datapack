@@ -1,0 +1,27 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[truffle]}"
+              }
+            }
+          ],
+          "item": {
+            "items": [
+              "minecraft:glass_bottle"
+            ]
+          }
+        }
+      }
+    },
+    "rewards": {
+        "function": "origins:truffle/potions/click-to-get"
+    }
+  }
+  

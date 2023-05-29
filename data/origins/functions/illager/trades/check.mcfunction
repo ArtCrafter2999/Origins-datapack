@@ -1,0 +1,2 @@
+execute if score @s random-value matches ..0 run data modify entity @e[tag=illager-villager-new, limit=1] Offers.Recipes append from storage illager-trades-temp Offers.Recipes[30]
+execute if score @s random-value matches 1.. run function origins:illager/trades/iteration

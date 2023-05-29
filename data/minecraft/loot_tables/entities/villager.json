@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": {
+          "min": 2,
+          "max": 5
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:emerald"
+          }
+        ]
+      }
+    ]
+  }
+  

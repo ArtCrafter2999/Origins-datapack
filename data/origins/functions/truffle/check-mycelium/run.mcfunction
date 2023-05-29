@@ -1,0 +1,1 @@
+execute if block ~ ~-1 ~ mycelium run function origins:truffle/check-mycelium/stage-1

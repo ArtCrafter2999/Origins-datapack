@@ -1,0 +1,11 @@
+execute if score @s crystalix-effect-timer matches ..0 if entity @s[nbt={Inventory:[{Slot:-106b, id:"minecraft:iron_nugget"}]}] run function origins:crystalix/minerals/iron_nugget
+execute if score @s crystalix-effect-timer matches ..0 if entity @s[nbt={Inventory:[{Slot:-106b, id:"minecraft:gold_nugget"}]}] run function origins:crystalix/minerals/gold_nugget
+execute if score @s crystalix-effect-timer matches ..0 if entity @s[nbt={Inventory:[{Slot:-106b, id:"minecraft:iron_ingot"}]}] run function origins:crystalix/minerals/iron_ingot
+execute if score @s crystalix-effect-timer matches ..0 if entity @s[nbt={Inventory:[{Slot:-106b, id:"minecraft:gold_ingot"}]}] run function origins:crystalix/minerals/gold_ingot
+execute if score @s crystalix-effect-timer matches ..0 if entity @s[nbt={Inventory:[{Slot:-106b, id:"minecraft:quartz"}]}] run function origins:crystalix/minerals/quartz
+execute if score @s crystalix-effect-timer matches ..0 if entity @s[nbt={Inventory:[{Slot:-106b, id:"minecraft:diamond"}]}] run function origins:crystalix/minerals/diamond
+execute if score @s crystalix-effect-timer matches ..0 if entity @s[nbt={Inventory:[{Slot:-106b, id:"minecraft:amethyst_shard"}]}] run function origins:crystalix/minerals/amethyst_shard
+execute if score @s crystalix-effect-timer matches ..0 if entity @s[nbt={Inventory:[{Slot:-106b, id:"minecraft:copper_ingot"}]}] run function origins:crystalix/minerals/copper_ingot
+execute if score @s crystalix-effect-timer matches ..0 if entity @s[nbt={Inventory:[{Slot:-106b, id:"minecraft:netherite_scrap"}]}] run function origins:crystalix/minerals/netherite_scrap
+execute if score @s crystalix-effect-timer matches ..0 if entity @s[nbt={Inventory:[{Slot:-106b, id:"minecraft:netherite_ingot"}]}] run function origins:crystalix/minerals/netherite_ingot
+execute if score @s crystalix-effect-timer matches ..0 if entity @s[nbt={Inventory:[{Slot:-106b, id:"minecraft:netherite_block"}]}] run advancement grant @s only origins:general/crystalix/blacker-than-black

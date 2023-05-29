@@ -1,0 +1,17 @@
+scoreboard players set @s[predicate=origins:light-level/light-level/light_0] lich-light-level 0
+scoreboard players set @s[predicate=origins:light-level/light_1] lich-light-level 1
+scoreboard players set @s[predicate=origins:light-level/light_2] lich-light-level 2
+scoreboard players set @s[predicate=origins:light-level/light_3] lich-light-level 3
+scoreboard players set @s[predicate=origins:light-level/light_4] lich-light-level 4
+scoreboard players set @s[predicate=origins:light-level/light_5] lich-light-level 5
+scoreboard players set @s[predicate=origins:light-level/light_6] lich-light-level 6
+scoreboard players set @s[predicate=origins:light-level/light_7] lich-light-level 7
+scoreboard players set @s[predicate=origins:light-level/light_8] lich-light-level 8
+scoreboard players set @s[predicate=origins:light-level/light_9] lich-light-level 9
+scoreboard players set @s[predicate=origins:light-level/light_10] lich-light-level 10
+scoreboard players set @s[predicate=origins:light-level/light_11] lich-light-level 11
+scoreboard players set @s[predicate=origins:light-level/light_12] lich-light-level 12
+scoreboard players set @s[predicate=origins:light-level/light_13] lich-light-level 13
+scoreboard players set @s[predicate=origins:light-level/light_14] lich-light-level 14
+scoreboard players set @s[predicate=origins:light-level/light_15] lich-light-level 15
+title @s actionbar [{"text":"Light level: ","color":"yellow"},{"score":{"name":"@s","objective":"lich-light-level"},"color":"gold"}]

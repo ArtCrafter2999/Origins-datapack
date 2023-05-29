@@ -1,0 +1,2 @@
+give @p[distance=..5, tag=dwarf] potion{CustomPotionColor:13076480,display:{Name:'[{"text":"Beer of vivacity","italic":false}]'},CustomPotionEffects:[{Id:1,Duration:600,Amplifier:1},{Id:5,Duration:600,Amplifier:1}], Tags:[vivacity-beer]} 1 
+kill @e[type=item, distance=..1]

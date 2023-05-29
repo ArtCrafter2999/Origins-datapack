@@ -1,0 +1,117 @@
+{
+    "criteria": {
+      "sword": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[dwarf]}",
+                "equipment": {
+                  "mainhand": {
+                    "items": [
+                      "minecraft:golden_sword"
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "shovel": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[dwarf]}",
+                "equipment": {
+                  "mainhand": {
+                    "items": [
+                      "minecraft:golden_shovel"
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "pickaxe": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[dwarf]}",
+                "equipment": {
+                  "mainhand": {
+                    "items": [
+                      "minecraft:golden_pickaxe"
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "axe": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[dwarf]}",
+                "equipment": {
+                  "mainhand": {
+                    "items": [
+                      "minecraft:golden_axe"
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "hoe": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[dwarf]}",
+                "equipment": {
+                  "mainhand": {
+                    "items": [
+                      "minecraft:golden_hoe"
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "sword", "axe", "pickaxe", "shovel", "hoe"
+      ]
+    ],
+    "rewards": {
+      "function": "origins:dwarf/add-additional-heart"
+    }
+}

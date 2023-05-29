@@ -1,0 +1,30 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:red_candle"
+      },
+      "title": "Не п'єш, не куриш, не матюкаєшся - я знаю хто ти",
+      "description": "Choose the Vampire's Origin",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "origins:general/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[vampire]}"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }

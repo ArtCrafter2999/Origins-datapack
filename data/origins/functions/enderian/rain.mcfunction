@@ -1,0 +1,2 @@
+execute as @s at @s if block ~ ~ ~ #passable if blocks ~ ~ ~ ~ 318 ~ ~ ~2 ~ all run effect give @s minecraft:wither 1 1 true
+execute as @s at @s if block ~ ~1 ~ #passable if blocks ~ ~1 ~ ~ 318 ~ ~ ~2 ~ all run effect give @s minecraft:wither 1 1 true

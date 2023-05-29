@@ -1,0 +1,11 @@
+execute positioned ~ ~ ~-5 run function origins:clown/20blocks/cake
+execute positioned ~ ~ ~-4 run function origins:clown/20blocks/cake
+execute positioned ~ ~ ~-3 run function origins:clown/20blocks/cake
+execute positioned ~ ~ ~-2 run function origins:clown/20blocks/cake
+execute positioned ~ ~ ~-1 run function origins:clown/20blocks/cake
+execute positioned ~ ~ ~ run function origins:clown/20blocks/cake
+execute positioned ~ ~ ~1 run function origins:clown/20blocks/cake
+execute positioned ~ ~ ~2 run function origins:clown/20blocks/cake
+execute positioned ~ ~ ~3 run function origins:clown/20blocks/cake
+execute positioned ~ ~ ~4 run function origins:clown/20blocks/cake
+execute positioned ~ ~ ~5 run function origins:clown/20blocks/cake

@@ -1,0 +1,1 @@
+give @s potion{Tags:[blood],CustomPotionColor:16711680, display:{Name:'{"text":"Blood", "color": "dark_red","italic": false, "bold": true}'}}
